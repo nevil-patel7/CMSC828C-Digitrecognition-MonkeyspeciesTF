@@ -72,6 +72,5 @@ Tranfer Learning :- run TF_CNN.m
 Line 6 :- freeze = 1;   Select -> For Conv Layer param freeze = 1, freeze = 0(To unfreeze).
 
 -------------------------------------------------------------------------------------------------
-END
 
 
