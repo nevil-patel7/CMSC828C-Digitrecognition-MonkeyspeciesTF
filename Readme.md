@@ -1,4 +1,4 @@
-# Hand written Digit recognition 
+# Hand written Digit recognition. (SVM and CNN) 
 # Project Description:-
 
 SVM :- Implement linear and kernel SVM on MNIST dataset. You have to try different kernels (linear, polynomial, RBF) and compare results in your report. You can use any online toolbox for this, e.g. LIBSVM (https://www.csie.ntu.edu.tw/~cjlin/libsvm/) or any MATLAB built-in function. You can apply PCA and LDA here for dimensionality reduction.
@@ -12,6 +12,7 @@ For this part of the project, you will be applying a deep learning technique com
 
 # Run the Code:
 STEP 1
+
 To run the matlab file you will require Matlab toolbox as follows:-
 Deep Learning Toolbox Model For AlexNet Network
 Deep Learning Toolbox
@@ -25,9 +26,9 @@ Library SVM required files for matlab already added in Code Folder.(*.mexw64 fil
 --------------------------------------------------------------------------------------------
 
 STEP 2
+
 Include the dataset in the Code Folder after step 1.
 Dataset:-
-
 Part 1-MNIST
 Files:-
 t10k-labels.idx1-ubyte
@@ -44,10 +45,12 @@ Folder :- training --> n0,n1,....,n9 --> *.jpg
 -----------------------------------------------------------------------------------------
 
 STEP 3
+
 Run all files in matlab
 Open the files in Matlab and press the Run it after completing STEP 2
 
-Part 1 
+# Part 1 
+
 MNIST
 SVM:- run SVM.m 
 
@@ -59,7 +62,7 @@ CNN:- run CNN_MNIST.m
 Line 98 :-    for (i=1:4)
 Change number of iterations in order to train the model number of times.
 
-Part 2 
+# Part 2 
 10 Monkey Species
 
 CNN:- run Simple_CNN.m
