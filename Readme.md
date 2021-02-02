@@ -49,7 +49,7 @@ STEP 3
 Run all files in matlab
 Open the files in Matlab and press the Run it after completing STEP 2
 
-# Part 1 
+Part 1 
 
 MNIST
 SVM:- run SVM.m 
@@ -62,7 +62,8 @@ CNN:- run CNN_MNIST.m
 Line 98 :-    for (i=1:4)
 Change number of iterations in order to train the model number of times.
 
-# Part 2 
+Part 2 
+
 10 Monkey Species
 
 CNN:- run Simple_CNN.m
